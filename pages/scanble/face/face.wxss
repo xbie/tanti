@@ -1,0 +1,12 @@
+/* pages/scanble/face/face.wxss */
+button{
+  margin: 30rpx;
+  width: 50%;
+}
+.buview{
+  display: flex;
+  flex-direction: row;
+}
+image{
+  margin-top: 10rpx;
+}

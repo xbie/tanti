@@ -1,0 +1,39 @@
+Page{
+  background-color: #eeeeee;
+}
+image{
+  height:800rpx;
+  width: 100%;
+}
+.newcontainer{
+  margin: 20rpx;
+}
+.buttonx{
+  display: flex;
+  margin: 40rpx;
+}
+.start{
+  margin-left: 30rpx;
+}
+.stop{
+  display: inline-block;
+  margin-left: 50rpx;
+}
+
+.ss {
+   background-color: blue;
+   height: 5rpx;
+   width: 100%;
+}
+.dlist {
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+    height: 130rpx;
+    width: 100%;
+}
+
+
+.test{
+  height:30rpx;
+  width:30rpx;
+}

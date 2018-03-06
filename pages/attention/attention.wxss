@@ -1,0 +1,13 @@
+/* pages/attention/attention.wxss */
+checkbox-group{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+checkbox{
+  margin: 20rpx;
+  font-size: 0.9rem;
+}
+.confirm{
+  margin: 30px;
+}

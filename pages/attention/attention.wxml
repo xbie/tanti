@@ -1,0 +1,12 @@
+<!--pages/attention/attention.wxml-->
+<view class="newcontainer" hidden='{{false}}'>
+  <checkbox-group bindchange="bindcheck">
+      <checkbox value="0">我没有佩戴胰岛素泵</checkbox>
+      <checkbox value="1">我没有植入心脏起搏器</checkbox>
+      <checkbox value="2">我没有植入脑起搏器</checkbox>
+      <checkbox value="3">我没有癫痫发作史</checkbox>
+      <checkbox value="4">我不是孕妇</checkbox>
+      <checkbox value="5">我没有服用中枢兴奋性药物</checkbox>
+  </checkbox-group>
+  <button class="confirm" disabled="{{confirmflag}}" type="primary" bindtap="bindconfirm">确认</button>
+</view>

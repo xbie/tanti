@@ -1,0 +1,9 @@
+<!--pages/scanble/face/face.wxml-->
+<camera device-position='front' flash='off' binderror='binderror' style='width:100%; height:300px;'></camera>
+<view class='buview'>
+  <button type="default" bindtap="takePhoto">定格</button>
+  <button type='default' bindtap='bindupload'>识别</button>
+</view>
+<image mode="widthFix" src="{{imagesrc}}" style='width:100%'></image>
+
+

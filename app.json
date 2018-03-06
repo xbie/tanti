@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/scanble/scanble",
+    "pages/attention/attention",
+    "pages/send/send",
+    "pages/client/client",
+    "pages/client/mydata/mydata",
+    "pages/client/huiyuan/huiyuan",
+    "pages/client/order/order",
+    "pages/mall/mall",
+    "pages/index/index",
+    "pages/charge/charge",
+    "pages/test/test",
+    "pages/scanble/face/face"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#000000",
+    "selectedColor": "#00ff00",
+    "list": [
+      {
+        "pagePath": "pages/client/client",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me2.png"
+      },
+      {
+        "pagePath": "pages/charge/charge",
+        "text": "充值",
+        "iconPath": "images/charge.png",
+        "selectedIconPath": "images/charge2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "附近",
+        "iconPath": "images/map.png",
+        "selectedIconPath": "images/map2.png"
+      },
+      {
+        "pagePath": "pages/scanble/scanble",
+        "text": "使用",
+        "iconPath": "images/start.png",
+        "selectedIconPath": "images/start2.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+<view class="newcontainer">
+  <view class="wenzi"> 
+    会员等级采用积分制，累积充值金额对应相等的积分。
+  </view>
+
+  <view class="wenzi">
+    会员优惠特权：
+  </view>
+  <view class="viewList">
+    <block wx:for="{{listData}}" wx:key="{{a}}">
+      <view class="tr-all">
+        <view class="tr">{{item.a}}</view>
+        <view class="tr">{{item.b}}</view>
+        <view class="tr">{{item.c}}</view>
+      </view>
+    </block>
+  </view>
+  </view>
+
+<!--
+<view class="wenzi">
+  增送：会员可以购买使用权赠送给亲朋好友，也可以为亲朋好友购买会员资格。
+</view>
+<view class="wenzi">
+  非会员与普通会员不具有共享权限。
+  黄金及以上会员可以共享，共享者提成：每次10元。
+  </view>
+-->

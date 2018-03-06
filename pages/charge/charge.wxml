@@ -1,0 +1,39 @@
+<!--车费余额模块-->
+<view class="blank"></view>
+<view class="balance">
+  <image src="../../images/charge/mywallet.png"></image>
+  <view class="txt">
+    <text class="money">￥{{mymoney}}</text>
+    <text class="chinese">余额</text>
+  </view>
+</view>
+<!--充值金额模块-->
+<view class="balance-money">
+  <text>充值金额:</text>
+</view>
+<!--充值金额分类模块-->
+<view class="balance-demo" id="balanceDemo">
+  <form>
+    <block wx:for="{{navList}}" wx:key="{{navList.id}}">
+      <button class="type-nav {{curNav == item.id ? 'selected' : ''}}" bindtap="selectNav" data-index="{{index}}" data-id="{{item.id}}" data-money="{{item.money}}">
+          <text class="top type-nav {{curNav == item.id ? 'selected' : ''}}" 
+          data-index="{{index}}" data-id="{{item.id}}">{{item.chongzhi}}
+          </text>
+        <view class="classname"></view>
+        </button>
+
+    </block>
+    <button class="type-nav">
+      <input class="input" placeholder="输入" type="digit" bindinput="bindInput"/>
+    </button>
+  </form>
+</view>
+<!--去充值模块-->
+<view class="goblance">
+  <button bindtap="goblance" data-money="500" hover-class="button-hover" hover-start-time="50" hover-stay-time="200" type="primary">充值</button>
+</view>
+
+<!--充值余额成功弹出层-->
+<modal class="mb-balance" hidden="{{lockhidden}}" title="充值成功" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+  您已成功充值{{sucmoney}}元。
+</modal>

@@ -1,0 +1,35 @@
+.button{
+  margin-top: 30rpx;
+}
+.buttonopen{
+  margin-top: 30rpx;
+}
+.imageopen{
+  width: 400rpx;
+  height: 400rpx;
+  margin-left: 170rpx;
+}
+.radio-group{
+  margin-top: 60rpx;
+}
+.radio-group label{
+  margin: 30rpx;
+}
+.group{
+  display: flex;
+  flex-direction: row;
+  background: ivory;
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+}
+.text{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  font-size: 38rpx;
+}
+.opengroup{
+  margin-bottom: 100rpx;
+}
+.all{
+  margin: 30rpx;
+}

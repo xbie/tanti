@@ -1,0 +1,22 @@
+<!--pages/client/client.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="userinfo-other">
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <view class="userinfo-rank">
+        <text class="userinfo-grade">{{rank}}</text>
+        <text class="userinfo-grade">当前积分:\t{{grade}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="info-list">
+    <block wx:for="{{userListInfo}}" wx:key="{{userListInfo.id}}">
+      <view wx:if="{{item.kongflag}}" class="kong"></view>
+      <view class="weui_cell" bindtap="bindtap{{item.id}}">
+        <image src="{{item.icon}}"></image>
+        <view class="weui_cell_bd"> {{item.text}} </view>
+      </view>
+    </block>
+  </view>
+</view>

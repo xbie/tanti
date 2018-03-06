@@ -1,0 +1,18 @@
+.wenzi{
+  font-size: 32rpx;
+  margin-bottom: 30rpx
+}
+.tr-all {
+  margin: 20rpx;
+   
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.1px solid black
+}
+.tr {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30rpx;
+  font-size: 30rpx;
+}

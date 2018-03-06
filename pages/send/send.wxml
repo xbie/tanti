@@ -1,0 +1,37 @@
+<view class="all">
+
+<button class= "button" type="primary" hover-class="button-hover" hover-stay-time="100" hidden="{{buttonflag}}" bindtap="bindViewTap"> {{using}} </button>
+<view class="group" hidden="{{openflag}}">
+<text class="text">请选择方案:</text>
+<radio-group class="radio-group"  bindchange="radioChange" >
+  <label style="display:flex"  class="radio" wx:for="{{items}}" wx:key="name">
+    <radio value="{{item.value}}" checked="{{item.checked}}" />{{item.name}}
+  </label>
+</radio-group>
+</view>
+<view class="opengroup" hidden="{{openflag}}">
+<text class="text">启动设备:</text>
+<image class="imageopen" src="../../images/open.png" bindtap="bindOpenTap"></image>
+</view>
+<button class= "button" type="warn" hover-class="button-hover" hover-stay-time="100" bindtap="bindduanTap"> 断开连接 </button>
+
+<!--
+<button class= "buttonopen"   hover-class="button-hover" hover-stay-time="100" hidden="{{openflag}}" bindtap="bindOpenTap" > 启动设备 </button>
+
+<view class="section">
+    <input  text="text" placeholder="请输入信息" bindinput="inputTextchange" />
+</view>
+
+<view class="result">结果：{{inputValue}}</view>
+<view class="rediox" >
+<radio-group class="radio-group" bindchange="radioChange" >
+  <label style="display:flex"  class="radio" wx:for="{{items}}" wx:key="name">
+    <radio value="{{item.value}}" checked="{{item.checked}}" />{{item.name}}
+  </label>
+</radio-group>
+</view>
+<view class=getxx">接收数据：</view>
+<text class="getx">{{getmessage}}</text>
+-->
+
+</view>

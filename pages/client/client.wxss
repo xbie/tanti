@@ -1,0 +1,68 @@
+/* pages/client/client.wxss */
+/*  background: #6ff6cf; */
+/**index.wxss**/
+
+Page{
+  background-color: gainsboro
+}
+.userinfo {
+  margin-top: 40rpx;
+  display: flex;
+  padding: 10rpx 0;
+  align-items: flex-start;
+  background: white;
+}
+.userinfo-avatar {
+  width: 140rpx;
+  height: 140rpx;
+  margin: 30rpx;
+  border-radius: 50%;
+}
+.userinfo-other{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.userinfo-nickname {
+  margin-top: 40rpx;
+  font-size: 35rpx;
+}
+.userinfo-rank{
+  margin-top: 30rpx;
+}
+.userinfo-grade{
+  background: gray;
+  color: orange;
+  margin-right: 20rpx;
+  padding: 10rpx;
+  font-size: 25rpx;
+  border-radius: 20%;
+}
+.info-list{
+  margin-top: 40rpx;
+  background-color: white;
+}
+.weui_cell{
+    position: relative;
+    display: flex;
+    padding: 25rpx;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+}
+.weui_cell image{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: -2px;
+}
+.weui_cell_bd{
+  display: inline-block;
+  font-size: 31rpx;
+}
+.kong{
+  height: 40rpx;
+  background: gainsboro;
+}

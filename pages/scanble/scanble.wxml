@@ -1,0 +1,17 @@
+<image src='../../images/brain.png' mode='scaleToFill' bindtap='bindface'>
+</image>
+<view class="newcontainer">
+  <view class="listx">设备列表:</view>
+  <view wx:for="{{list}}" wx:for-item="item" data-title="{{item.deviceId}}" data-name="{{item.name}}" wx:key="{{item.deviceId}}" bindtap="bindViewTap">
+    <view class="dlist">
+      {{item.name}}----{{item.deviceId}}
+      <view class="ss"></view>
+    </view>
+    
+  </view>
+    <view class="buttonx" >
+    <button class="start" type="primary" hover-class="button-hover" hover-stay-time="100" bindtap="buttontap">搜索ANTIS</button>
+    <button class="stop" type="warn" hover-class="button-hover" hover-stay-time="100" bindtap="button2tap">停止搜索</button>
+    <button class="test" bindtap="bindtest" hidden='{{true}}'>测试</button>
+  </view>
+</view>

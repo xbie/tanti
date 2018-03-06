@@ -1,0 +1,9 @@
+<!--pages/client/order/order.wxml-->
+<view class="all">
+<view class="ordertips" hidden="{{hflag}}">订单为空</view>
+<view class="listifo" >
+ <block wx:for="{{list}}" wx:key="{{list}}">
+   <view class="apple">{{item}}</view>
+ </block>
+</view>
+</view>

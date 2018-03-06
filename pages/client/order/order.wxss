@@ -1,0 +1,11 @@
+/* pages/client/order/order.wxss */
+.apple{
+  padding:30rpx;
+  font-size: 35rpx;
+  line-height: 70rpx;
+  letter-spacing: 3rpx;
+  word-spacing: 20rpx;
+}
+.all{
+  background: gainsboro;
+}

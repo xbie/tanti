@@ -1,0 +1,48 @@
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  border-bottom: 1px solid #999;
+}
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+   padding: 15px;
+}
+.weui_cell{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #999;
+}
+.weui_cell_te{
+  font-size: 16px;
+  color: black;
+  flex: 1;
+}
+
+.weui_cell_in{
+  font-size: 14px;
+  color: black;
+  flex: 4;
+}
+.weui_cell_radio{
+  font-size: 14px;
+  color: black;
+  flex: 4;
+}
+
+.weui_cell_radio radio{
+  margin-left: 30px;
+}
+
+.confirm{
+  margin: 30px;
+}
+
